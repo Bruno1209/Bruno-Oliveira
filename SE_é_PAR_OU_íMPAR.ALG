@@ -1,6 +1,6 @@
-Algoritmo "Se_é_par_ou_ímpar"
-// Descrição   : Saber se o número é par ou ímpar
-// Autor(a)    : Diogo Remelado
+Algoritmo "Se_Ã©_par_ou_Ã­mpar"
+// DescriÃ§Ã£o   : Saber se o nÃºmero Ã© par ou Ã­mpar
+// Autor(a)    : Bruno OLiveira
 // Data atual  : 28/09/2017
 Var
 numero: inteiro
@@ -9,9 +9,9 @@ numero: inteiro
 Inicio
 Leia (numero)
 Se (numero mod 2=0) entao
-Escreval (" O numero é par")
+Escreval (" O numero Ã© par")
 fimse
 se (numero mod 2=1) entao
-Escreval ("O número é ímpar")
+Escreval ("O nÃºmero Ã© Ã­mpar")
 fimse
 fimalgoritmo
