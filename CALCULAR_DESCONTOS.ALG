@@ -1,5 +1,5 @@
 Algoritmo "Calcular_Descontos"
-// Autor(a)    : carlos neiva
+// Autor(a)    : Bruno Oliveira
 // Data atual  : 12/10/2017
 Var
 quantidade, valor, desconto, valorTotal: real
@@ -25,7 +25,7 @@ inicio
   desconto <- valor * 0.3
   valorTotal <- (valor - desconto)*quantidade
   outrocaso
-  algo <- "Inválido"
+  algo <- "InvÃ¡lido"
   fimescolha
-  escreval("Valor do produto com desconto é € ", valorTotal)
+  escreval("Valor do produto com desconto Ã© â‚¬ ", valorTotal)
 Fimalgoritmo
